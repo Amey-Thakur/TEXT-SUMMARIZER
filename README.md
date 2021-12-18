@@ -3,7 +3,7 @@
  
  [Try the application](http://textssummarizer.herokuapp.com)
  
- - [Presentation]()
+ - [Presentation](https://github.com/Amey-Thakur/TEXT-SUMMARIZER/blob/main/TEXT%20SUMMARIZER.pdf)
 
 ---
 
