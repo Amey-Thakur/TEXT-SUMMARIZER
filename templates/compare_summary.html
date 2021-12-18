@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>TEXT SUMMARIZER</title>
+  <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+  <link href="static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css"/>
+</head>
+
+<body>
+  <style>
+    body {
+      background-color: rgb(0, 0, 0);
+      font-family: Play ;
+    }
+    .flex-parent {
+      display: flex;
+    }
+    .jc-center {
+      justify-content: center;
+    }
+    footer {
+    text-align: center;
+    text-shadow:black;
+    padding: 3px;
+    color: whitesmoke;
+  }
+  </style>
+  
+  <div class="navbar-fixed">
+    <nav class="grey darken-4" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">TEXT SUMMARIZER</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="{{url_for('index')}}">HOME</a></li>
+          <li><a href="{{url_for('compare_summary')}}">COMPARE</a></li>
+          <li><a href="#aboutapp">ABOUT US</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger">MENU</a>
+      </div>
+    </nav>
+  </div>
+  
+  <ul id="nav-mobile" class="sidenav">
+    <li><a href="{{url_for('index')}}">HOME</a></li>
+    <li><a href="{{url_for('compare_summary')}}">COMPARE</a></li>
+    <li><a href="#contactme">ABOUT US</a></li>
+  </ul>
+
+<div class="container">
+  <div class="section">
+    <div class="row">
+      <div class="input-field col s12 m10">
+        <div class="icon-block">
+          <h3 align="center" style="color: rgb(255, 255, 255);">COMPARE</h3>
+          <form method="POST" action="/comparer">
+            <textarea name="rawtext" cols="10" rows="10" style="color: #ffffff;" class="form-control" required="true" placeholder="Enter your text here" ></textarea>
+            <br/>
+            <div class="flex-parent jc-center">
+              <button type="reset" class="btn btn-small waves-effect waves-light red lighten-1">CLEAR</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              <button type="submit" class="btn btn-small waves-effect waves-light light-blue lighten-1">SUMMARIZE</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="section section-solutions-about #fafafa grey lighten-5">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m8">
+        <div class="icon-block">
+          <h4 align="center" style="color: rgb(0, 0, 0);">INPUT TEXT</h4>
+          <p style="color: rgb(0, 0, 0);">READING TIME: <span style="color:#1100ff;">{{ final_reading_time }} MINUTES </span></p>
+          <p class="light" style="color: #000000;">{{ctext}}</p>
+          <div class="alert alert-info" role="alert"><p style="color: rgb(0, 0, 0);">TIME ELAPSED: <span style="color:#ff0000;">{{ final_time }} MINUTES </span></p>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-solutions-about #fafafa grey lighten-5">
+  <div class="container">
+    <div class="row">
+      <div class="row">
+          <div class="col s12">
+            <ul class="tabs">
+              <li class="tab col s3">
+                <a href="#tab1" class="black-text"><b>GENSIM SUMMARIZER</b></a>
+              </li>
+              <li class="tab col s3">
+                <a href="#tab2" class="black-text"><b>NATURAL LANGUAGE TOOLKIT</b></a>
+              </li>
+              <li class="tab col s3">
+                <a href="#tab3" class="black-text"><b>SPACY SUMMARIZER</b></a>
+              </li>
+              <li class="tab col s3">
+                <a href="#tab4" class="black-text"><b>SUMY LEXRANK</b></a>
+              </li>
+            </ul>
+          </div>
+          <div id="tab1" class="col s12">
+            <h5>Gensim</h5>
+            <div class=""><p>READING TIME: <span style="color:#0091EA;">{{ summary_reading_time_gensim }} MINUTES </span></p>
+            </div>
+            <div class="grey darken-3"><p style="padding:5px; font-size:14px; color: #ffffff;">{{ final_summary_gensim }}</p>
+            </div>
+          </div>
+          <div id="tab2" class="col s12">
+            <h5>NLTK</h5>
+            <div class=""><p>READING TIME: <span style="color:#0091EA;">{{ summary_reading_time_nltk }} MINUTES </span></p>
+            </div>
+            <div class="grey darken-3"><p style="padding:5px; font-size:14px; color: #ffffff;">{{ final_summary_nltk }}</p>
+            </div>
+          </div>
+          <div id="tab3" class="col s12">
+            <h5>SpaCy</h5>
+            <div class="" ><p>READING TIME: <span style="color:#0091EA;">{{ summary_reading_time }} MINUTES  </span></p>
+            </div>
+            <div class="grey darken-3"><p style="padding:5px; font-size:14px; color: #ffffff;">{{ final_summary_spacy }}</p>
+            </div>
+          </div>
+          <div id="tab4" class="col s12">
+            <h5>Sumy</h5>
+            <div class=""><p>READING TIME: <span style="color:#0091EA;">{{ summary_reading_time_sumy}} MINUTES </span></p>
+            </div>
+            <div class="grey darken-3"><p style="padding:5px; font-size:14px; color: #ffffff;">{{ final_summary_sumy }}</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+  <footer class="page-footer grey darken-4">
+    <div class="container" id="aboutapp">
+      <div class="row">
+        <h5 class="white-text" align="center">ABOUT US</h5>
+          <p class="grey-text text-lighten-4" align="center">👷 Project Authors: <a href="https://github.com/Amey-Thakur" style="color: rgb(255, 0, 0);" target="_blank">Amey Thakur</a> & <a href="https://github.com/msatmod " style="color: rgb(0, 0, 255);" target="_blank">Mega Satish</a></p>
+          <p class="grey-text text-lighten-4" align="center"><a href="mailto:ameythakur20@gmail.com" style="color: greenyellow;" target="_blank">🔗 Queries? Get in touch </a><br></p>
+          <p class="grey-text text-lighten-4" align="center"><a href="https://github.com/Amey-Thakur/TEXT-SUMMARIZER/pulls" style="color: greenyellow;" target="_blank">🔗 Interested in collaborating? Open a pull request </a</p>
+        </div>
+      </div>
+    </footer>
+  
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="static/js/materialize.js"></script>
+    <script src="static/js/init.js"></script>
+  
+    </body>
+  </html>
