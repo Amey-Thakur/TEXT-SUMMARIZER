@@ -11,7 +11,9 @@ _In this project, we propose to implement a web application that can summarize a
  >**Text Summarizer Using Julia**
   
  - **[Certificate](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Text%20Summarizer%20Using%20Julia/IJRASET40066%20-%20Text%20Summarizer%20Using%20Julia.pdf)**
+ 
  - **IJRASET | Volume 10 Issue 1 | [Published Article](https://doi.org/10.22214/ijraset.2022.40066)**
+ 
  - **[Presentation](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Text%20Summarizer%20Using%20Julia/TEXT%20SUMMARIZER.pdf)**
 
 ---
