@@ -1,6 +1,6 @@
 # TEXT-SUMMARIZER
 
-_In this project, we propose to implement a web application that can summarize a text or a Wikipedia link. We have additionally been given an opportunity to compare different methods of summarization._
+In this project, we propose to implement a web application that can summarize a text or a Wikipedia link. We have additionally been given an opportunity to compare different methods of summarization.
 
  - **[Try the application](http://textssummarizer.herokuapp.com)**
  
