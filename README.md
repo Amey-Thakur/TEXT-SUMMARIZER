@@ -7,15 +7,17 @@
 
 ---
 
- >**Text Summarizer Using Julia**
+ - **Text Summarizer Using Julia**
   
- - **[Certificate](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Text%20Summarizer%20Using%20Julia/IJRASET40066%20-%20Text%20Summarizer%20Using%20Julia.pdf)**
+   - **[Certificate](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Text%20Summarizer%20Using%20Julia/IJRASET40066%20-%20Text%20Summarizer%20Using%20Julia.pdf)**
  
- - **IJRASET | Volume 10 Issue 1 | [Published Article](https://doi.org/10.22214/ijraset.2022.40066)**
+   - **IJRASET | Volume 10 Issue 1 | [Published Article](https://doi.org/10.22214/ijraset.2022.40066)**
  
- - **[Presentation](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Text%20Summarizer%20Using%20Julia/TEXT%20SUMMARIZER.pdf)**
+   - **[Presentation](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Text%20Summarizer%20Using%20Julia/TEXT%20SUMMARIZER.pdf)**
 
 ---
+
+>**WEB APPLICATION - http://textssummarizer.herokuapp.com**
 
 ![TEXT SUMMARIZER](https://user-images.githubusercontent.com/54937357/146636650-5e8909fe-0484-41b8-b1d9-03612cb34e70.png)
 
