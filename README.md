@@ -3,7 +3,9 @@
 
  - **[Try the application](http://textssummarizer.herokuapp.com)**
  
- - **[Presentation](https://github.com/Amey-Thakur/TEXT-SUMMARIZER/blob/main/TEXT%20SUMMARIZER.pdf) | [DOI](http://dx.doi.org/10.13140/RG.2.2.17259.67360)**
+ - **[Project Presentation](https://github.com/Amey-Thakur/TEXT-SUMMARIZER/blob/main/TEXT%20SUMMARIZER.pdf) | [DOI](http://dx.doi.org/10.13140/RG.2.2.17259.67360)**
+ 
+ - **[Presentation](https://youtu.be/2drrqsSB1Bc)**
 
 ---
 
