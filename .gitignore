@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+.env
+bin/
+lib/
+include/
+tcl/
+pyvenv.cfg
+text-sum/
+
+# OS Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary Files
+*.tmp
+*.bak
+*.sav
+*.old
+~*
