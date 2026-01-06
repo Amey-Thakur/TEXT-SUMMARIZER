@@ -13,24 +13,30 @@
 (function ($) {
   $(function () {
 
+    // Initialize Materialize Side Navigation (Mobile/Responsive)
     $('.sidenav').sidenav();
+
+    // Initialize Parallax Effect for immersive conceptual visuals
     $('.parallax').parallax();
-    // TABS INIT
+
+    // Initialize Tab Navigation Components
     $('.tabs').tabs();
-    // CAROUSEL INIT
+
+    // Initialize Carousel for Feature Showcase
     $('.carousel.carousel-slider').carousel({ fullWidth: true });
-    // SLIDER INIT
+
+    // Initialize Hero Slider with Custom Timing
     $('.slider').slider({
       indicators: false,
-      // we don't want the little dots to show
-      height: 500,
-      transition: 500,
-      interval: 6000
-      // how long the slide stays for
+      // Suppress navigation dots for cleaner aesthetic
+      height: 500,        // Fixed height in pixels
+      transition: 500,    // Transition duration in ms
+      interval: 6000      // Slide duration in ms
+      // Controlled timing for optimal readability
     });
 
 
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+  }); // End of document ready state
+})(jQuery); // End of jQuery namespace encapsulation
 
 
