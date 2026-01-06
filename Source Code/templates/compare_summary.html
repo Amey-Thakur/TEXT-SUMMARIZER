@@ -16,16 +16,26 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Compare text summarization algorithms (SpaCy, NLTK, Gensim, Sumy) side-by-side. Analyze performance and output quality.">
+  <meta name="keywords"
+    content="Text Summarizer Comparison, Model Comparison, NLP Algorithms, TextRank, LexRank, SpaCy vs NLTK, Machine Learning Evaluation, Amey Thakur, Mega Satish">
+  <meta name="author" content="Amey Thakur & Mega Satish">
   <title>TEXT SUMMARIZER</title>
+
+  <!-- Typography and Framework Styles -->
   <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
   <link href="static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+  <!-- Icon Libraries -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css" />
 </head>
 
 <body>
+  <!-- Global Page Stylings for Theme Consistency -->
   <style>
     body {
       background-color: rgb(0, 0, 0);
@@ -48,10 +58,12 @@
     }
   </style>
 
+  <!-- Navigation Bar: Fixed positioning for persistent user access -->
   <div class="navbar-fixed">
     <nav class="grey darken-4" role="navigation">
       <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="brand-logo">TEXT SUMMARIZER</a>
+        <!-- Desktop Navigation Menu -->
         <ul class="right hide-on-med-and-down">
           <li><a href="{{url_for('index')}}">HOME</a></li>
           <li><a href="{{url_for('compare_summary')}}">COMPARE</a></li>
@@ -68,6 +80,7 @@
     <li><a href="#contactme">ABOUT US</a></li>
   </ul>
 
+  <!-- Comparison Functionality Section: Multi-algorithm input -->
   <div class="container">
     <div class="section">
       <div class="row">
@@ -91,6 +104,7 @@
     </div>
   </div>
 
+  <!-- Input Text Display: Original raw text with metrics -->
   <section class="section section-solutions-about #fafafa grey lighten-5">
     <div class="container">
       <div class="row">
@@ -110,6 +124,7 @@
     </div>
   </section>
 
+  <!-- Results Tabs: Side-by-side comparison of different algorithms -->
   <section class="section section-solutions-about #fafafa grey lighten-5">
     <div class="container">
       <div class="row">
@@ -130,6 +145,7 @@
               </li>
             </ul>
           </div>
+          <!-- Gensim Result Block -->
           <div id="tab1" class="col s12">
             <h5>Gensim</h5>
             <div class="">
@@ -139,6 +155,7 @@
               <p style="padding:5px; font-size:14px; color: #ffffff;">{{ final_summary_gensim }}</p>
             </div>
           </div>
+          <!-- NLTK Result Block -->
           <div id="tab2" class="col s12">
             <h5>NLTK</h5>
             <div class="">
@@ -148,6 +165,7 @@
               <p style="padding:5px; font-size:14px; color: #ffffff;">{{ final_summary_nltk }}</p>
             </div>
           </div>
+          <!-- SpaCy Result Block -->
           <div id="tab3" class="col s12">
             <h5>SpaCy</h5>
             <div class="">
@@ -157,6 +175,7 @@
               <p style="padding:5px; font-size:14px; color: #ffffff;">{{ final_summary_spacy }}</p>
             </div>
           </div>
+          <!-- Sumy Result Block -->
           <div id="tab4" class="col s12">
             <h5>Sumy</h5>
             <div class="">
@@ -171,6 +190,7 @@
     </div>
   </section>
 
+  <!-- Footer and Author Attribution -->
   <footer class="page-footer grey darken-4">
     <div class="container" id="aboutapp">
       <div class="row">
