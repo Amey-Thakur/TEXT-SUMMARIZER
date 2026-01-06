@@ -1,3 +1,16 @@
+"""
+@file app.py
+@description Main application entry point for the Text Summarizer. Handles Flask routes, 
+integrates summarization algorithms (SpaCy, NLTK, Gensim, Sumy), and manages data processing 
+for text and URL inputs.
+
+@author Amey Thakur <https://github.com/Amey-Thakur>
+@author Mega Satish <https://github.com/msatmod>
+@created 2022-08-09
+@repository https://github.com/Amey-Thakur/TEXT-SUMMARIZER
+@license MIT
+"""
+
 from __future__ import unicode_literals
 from flask import Flask,render_template,url_for,request
 

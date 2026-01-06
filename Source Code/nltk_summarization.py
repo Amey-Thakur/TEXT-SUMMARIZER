@@ -1,3 +1,15 @@
+"""
+@file nltk_summarization.py
+@description Implementation of text summarization logic using the NLTK library. 
+Provides functions to calculate sentence scores based on word frequency.
+
+@author Amey Thakur <https://github.com/Amey-Thakur>
+@author Mega Satish <https://github.com/msatmod>
+@created 2022-08-09
+@repository https://github.com/Amey-Thakur/TEXT-SUMMARIZER
+@license MIT
+"""
+
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
