@@ -51,6 +51,8 @@
   </tr>
   </table>
 
+  *Special thanks to [Mega Satish](https://github.com/msatmod) for her meaningful contributions, guidance, and support that helped shape this work.*
+
 </div>
 
 ---
@@ -82,6 +84,11 @@ Developed as a mini-project for the **8th Semester** curriculum, this system add
 | 5 | **Scholarly Preprint** | Formal research manuscript (viXra version) | 2022 | [View](https://vixra.org/abs/2202.0017) |
 | 6 | **Publication Certificate** | Certificate of Publication (IJRASET) | 2022 | [View](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Text%20Summarizer%20Using%20Julia/IJRASET40066%20-%20Text%20Summarizer%20Using%20Julia.pdf) |
 | 7 | **Project Demo** | Real-time application walkthrough | — | [View](https://youtu.be/2drrqsSB1Bc) |
+
+> [!TIP]
+> **Algorithm Selection for Optimal Results**
+>
+> For long-form documents, **Gensim's TextRank** provides superior coherence by leveraging graph-based sentence ranking. For shorter texts or news articles, **SpaCy's frequency-based** approach offers faster execution with comparable quality.
 
 ---
 
@@ -166,6 +173,11 @@ Ensure your environment meets the following requirements:
 - **Python**: Version **3.6** or higher.
 - **Packages**: Flask, SpaCy, NLTK, Gensim, Sumy.
 - **NLP Models**: `en_core_web_sm` (SpaCy), `stopwords/punkt` (NLTK).
+
+> [!WARNING]
+> **Technical Dependencies & Environment**
+>
+> This system requires **Python 3.6+** and multiple NLP libraries (SpaCy, NLTK, Gensim, Sumy). For stable execution, it is recommended to run this in an isolated virtual environment and ensure all SpaCy language models are downloaded prior to execution.
 
 ### 2. Setup & Installation
 1.  **Clone the Repository**:
