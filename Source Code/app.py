@@ -14,11 +14,14 @@ for text and URL inputs.
 from __future__ import unicode_literals
 from flask import Flask,render_template,url_for,request
 
-from spacy_summarization import text_summarizer
-from gensim.summarization import summarize
-from nltk_summarization import nltk_summarizer
+# Import proprietary and third-party summarization modules
+from spacy_summarization import text_summarizer  # SpaCy-based summarization logic
+from gensim.summarization import summarize       # Gensim's TextRank implementation
+from nltk_summarization import nltk_summarizer   # NLTK frequency-based summarization
 import time
 import spacy
+
+# Initialize SpaCy's English model for Natural Language Processing task
 nlp = spacy.load("en_core_web_sm")
 app = Flask(__name__)
 
@@ -27,32 +30,48 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 
 
-# Sumy Pkg
+# Sumy Package Imports for LexRank Algorithm
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
 
-# Sumy 
 def sumy_summary(docx):
+	"""
+	Generates a text summary using the LexRank algorithm provided by Sumy.
+	
+	@param docx (str): The input text document to be summarized.
+	@return result (str): The concatenated summary string containing top-ranked sentences.
+	"""
 	parser = PlaintextParser.from_string(docx,Tokenizer("english"))
 	lex_summarizer = LexRankSummarizer()
-	summary = lex_summarizer(parser.document,3)
+	summary = lex_summarizer(parser.document,3) # Extract top 3 sentences
 	summary_list = [str(sentence) for sentence in summary]
 	result = ' '.join(summary_list)
 	return result
 
 
-# Reading Time
 def readingTime(mytext):
-	total_words = len([ token.text for token in nlp(mytext)])
+	"""
+	Estimates the reading time for a given text based on average reading speed.
+	
+	@param mytext (str): The input text to analyze.
+	@return estimatedTime (float): The estimated reading time in minutes (assuming 200 wpm).
+	"""
+	total_words = len([ token.text for token in nlp(mytext)]) # Tokenize and count words
 	estimatedTime = total_words/200.0
 	return estimatedTime
 
 # Fetch Text From Url
 def get_text(url):
+	"""
+	Scrapes and processes textual content from a valid URL.
+	
+	@param url (str): The HTTP URL of the target webpage.
+	@return fetched_text (str): The cleaned text content extracted from paragraph tags.
+	"""
 	page = urlopen(url)
-	soup = BeautifulSoup(page)
-	fetched_text = ' '.join(map(lambda p:p.text,soup.find_all('p')))
+	soup = BeautifulSoup(page, "html.parser") # Parse HTML content
+	fetched_text = ' '.join(map(lambda p:p.text,soup.find_all('p'))) # Extract text from <p> tags
 	return fetched_text
 
 @app.route('/')
@@ -62,10 +81,16 @@ def index():
 
 @app.route('/analyze',methods=['GET','POST'])
 def analyze():
+	"""
+	Route to handle direct text input for summarization.
+	Processes the input text, calculates reading times, and returns the simplified summary.
+	"""
 	start = time.time()
 	if request.method == 'POST':
 		rawtext = request.form['rawtext']
+		# Calculate metrics for original text
 		final_reading_time = readingTime(rawtext)
+		# Generate summary using SpaCy-based custom algorithm
 		final_summary = text_summarizer(rawtext)
 		summary_reading_time = readingTime(final_summary)
 		end = time.time()
@@ -74,6 +99,10 @@ def analyze():
 
 @app.route('/analyze_url',methods=['GET','POST'])
 def analyze_url():
+	"""
+	Route to handle URL-based input for summarization.
+	Fetches content from the URL, extracts text, and performs summarization.
+	"""
 	start = time.time()
 	if request.method == 'POST':
 		raw_url = request.form['raw_url']
@@ -93,19 +122,29 @@ def compare_summary():
 
 @app.route('/comparer',methods=['GET','POST'])
 def comparer():
+	"""
+	Comparative analysis route.
+	Runs multiple summarization algorithms (SpaCy, Gensim, NLTK, Sumy) on the same input 
+	to allow side-by-side performance and quality comparison.
+	"""
 	start = time.time()
 	if request.method == 'POST':
 		rawtext = request.form['rawtext']
 		final_reading_time = readingTime(rawtext)
+		
+		# 1. SpaCy Summarizer
 		final_summary_spacy = text_summarizer(rawtext)
 		summary_reading_time = readingTime(final_summary_spacy)
-		# Gensim Summarizer
+		
+		# 2. Gensim Summarizer (TextRank)
 		final_summary_gensim = summarize(rawtext)
 		summary_reading_time_gensim = readingTime(final_summary_gensim)
-		# NLTK
+		
+		# 3. NLTK Summarizer (Frequency Dist)
 		final_summary_nltk = nltk_summarizer(rawtext)
 		summary_reading_time_nltk = readingTime(final_summary_nltk)
-		# Sumy
+		
+		# 4. Sumy Summarizer (LexRank)
 		final_summary_sumy = sumy_summary(rawtext)
 		summary_reading_time_sumy = readingTime(final_summary_sumy) 
 
