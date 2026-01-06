@@ -105,7 +105,7 @@ Developed as a mini-project for the **8th Semester** curriculum, this system add
 
 ---
 
-<!-- PROJECT STRUCTURE -->
+<!-- PROJECT<!-- STRUCTURE -->
 ## Project Structure
 
 ```bash
@@ -116,12 +116,15 @@ TEXT-SUMMARIZER/
 │
 ├── Mega/                                          # Archival Attribution Assets
 │   ├── Filly.jpg                                  # Project-related Content Asset
-│   └── Mega.png                                   # Author Profile Image (Mega Satish)
-│   ...                                            # Additional Contextual Assets
+│   ├── Mega.png                                   # Author Profile Image (Mega Satish)
+│   ├── Mega_Chair.png                             # Author Profile Context
+│   ├── Mega_Dining.jpg                            # Author Personal Context
+│   ├── Mega_Professional.jpg                      # Author Professional Portrait
+│   └── Mega_and_Hetvi.png                         # Collaborative Identity Asset
 │
 ├── Mini-Project/                                  # Research & Academic Assets
-│   ├── TEXT SUMMARIZER.pdf                        # Technical Project Report
-│   ├── TEXT SUMMARIZER.pptx                       # Project Presentation
+│   ├── TEXT SUMMARIZER.pdf                        # Technical Project Report (PDF)
+│   ├── TEXT SUMMARIZER.pptx                       # Project Presentation (PPTX)
 │   └── Text Summarizer Using Julia/               # Related Research Materials
 │
 ├── Source Code/                                   # Application Implementation
@@ -242,7 +245,19 @@ Special thanks to the Department of Computer Engineering at Terna Engineering Co
 
   <br>
 
-  📝 **[Text Summarizer](https://github.com/Amey-Thakur/TEXT-SUMMARIZER)** &nbsp;·&nbsp; 🎓 **[Computer Engineering](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)**
+  � **[Natural Language Processing Laboratory](https://github.com/Amey-Thakur/NATURAL-LANGUAGE-PROCESSING-AND-COMPUTATIONAL-LAB-II)** &nbsp;·&nbsp; �📝 **[Text Summarizer](https://github.com/Amey-Thakur/TEXT-SUMMARIZER)**
+
+  ---
+
+  ### Presented as part of the 8th Semester Mini-Project @ Terna Engineering College
+
+  ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
+
+  **Computer Engineering (B.E.) - University of Mumbai**
+
+  *Semester-wise curriculum, laboratories, projects, and academic notes.*
+
+</div>
 
   ---
 
