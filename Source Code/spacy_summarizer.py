@@ -1,4 +1,16 @@
 # NLP Pkgs
+"""
+@file spacy_summarizer.py
+@description Auxiliary module for SpaCy-based text summarization. 
+Contains logic for text processing and sentence ranking.
+
+@author Amey Thakur <https://github.com/Amey-Thakur>
+@author Mega Satish <https://github.com/msatmod>
+@created 2022-08-09
+@repository https://github.com/Amey-Thakur/TEXT-SUMMARIZER
+@license MIT
+"""
+
 import spacy 
 nlp = spacy.load('en')
 # Pkgs for Normalizing Text

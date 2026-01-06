@@ -1,4 +1,16 @@
 # NLP Pkgs
+"""
+@file spacy_summarization.py
+@description Implementation of text summarization logic using the SpaCy library. 
+Utilizes tokenization, stop-word removal, and sentence weighting for summary generation.
+
+@author Amey Thakur <https://github.com/Amey-Thakur>
+@author Mega Satish <https://github.com/msatmod>
+@created 2022-08-09
+@repository https://github.com/Amey-Thakur/TEXT-SUMMARIZER
+@license MIT
+"""
+
 import spacy 
 nlp = spacy.load("en_core_web_sm")
 # Pkgs for Normalizing Text
