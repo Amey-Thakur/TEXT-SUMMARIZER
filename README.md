@@ -140,6 +140,7 @@ TEXT-SUMMARIZER/
 ├── .gitattributes                                 # Global Git LFS & Config
 ├── .gitignore                                     # Asset Exclusion Manifest
 ├── CITATION.cff                                   # Scholarly Citation Metadata
+├── codemeta.json                                  # Software Metadata Manifest
 ├── LICENSE                                        # MIT License Terms
 ├── README.md                                      # Comprehensive Archival Entrance
 └── SECURITY.md                                    # Vulnerability Exposure Policy
