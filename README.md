@@ -65,10 +65,10 @@ Developed as a mini-project for the **8th Semester** curriculum, this system add
 > [!IMPORTANT]
 > **Research Impact**
 >
-> This project was published as a research paper in the **International Journal for Research in Applied Science and Engineering Technology (IJRASET)** (Volume 10, Issue 1) under the title *"Text Summarizer Using Julia"*, exploring comparative implementations.
+> This project was published as a research paper in the **International Journal for Research in Applied Science and Engineering Technology (IJRASET)** (Volume 10, Issue 1) and is also available as a preprint on **viXra**.
 >
+> - [Preprint @viXra](https://vixra.org/abs/2202.0017)
 > - [Published Paper @IJRASET](https://doi.org/10.22214/ijraset.2022.40066)
-> - [Publication Certificate](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Text%20Summarizer%20Using%20Julia/IJRASET40066%20-%20Text%20Summarizer%20Using%20Julia.pdf)
 
 ### Resources
 
@@ -78,7 +78,8 @@ Developed as a mini-project for the **8th Semester** curriculum, this system add
 | 2 | **Technical Report** | Comprehensive project report (PDF) | 2022 | [View](Mini-Project/TEXT%20SUMMARIZER.pdf) |
 | 3 | **Presentation** | Project presentation slides (PPTX) | 2022 | [View](Mini-Project/TEXT%20SUMMARIZER.pptx) |
 | 4 | **Research Article** | IJRASET Published Paper (Julia Implementation) | 2022 | [View](https://doi.org/10.22214/ijraset.2022.40066) |
-| 5 | **Project Demo** | Real-time application walkthrough | — | [View](https://youtu.be/2drrqsSB1Bc) |
+| 5 | **Scholarly Preprint** | Formal research manuscript (viXra version) | 2022 | [View](https://vixra.org/abs/2202.0017) |
+| 6 | **Project Demo** | Real-time application walkthrough | — | [View](https://youtu.be/2drrqsSB1Bc) |
 
 ---
 
