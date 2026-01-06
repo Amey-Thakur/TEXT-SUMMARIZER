@@ -105,7 +105,7 @@ Developed as a mini-project for the **8th Semester** curriculum, this system add
 
 ---
 
-<!-- PROJECT<!-- STRUCTURE -->
+<!-- PROJECT STRUCTURE -->
 ## Project Structure
 
 ```bash
@@ -197,7 +197,7 @@ This repository is openly shared to support learning and knowledge exchange acro
 Use this project as a reference for implementing NLP pipelines, understanding Flask web architecture, and integrating multiple machine learning libraries into a single application.
 
 **For Educators**  
-This project may serve as a practical example for courses in **Natural Language Processing**, **Web Development**, or **Artificial Intelligence**. It demonstrates the practical application of theoretical concepts like TextRank and LexRank.
+This project may serve as a practical example or supplementary teaching resource for **Natural Language Processing (`DLO8012`)** and **Computational Lab II (`CSL804`)** as part of the **8th Semester Computer Engineering** curriculum. Attribution is appreciated when utilizing content.
 
 **For Researchers**  
 The comparative framework allows for the evaluation of different extractive summarization algorithms on custom datasets, providing a baseline for further research into abstractive methods.
@@ -245,19 +245,7 @@ Special thanks to the Department of Computer Engineering at Terna Engineering Co
 
   <br>
 
-  � **[Natural Language Processing Laboratory](https://github.com/Amey-Thakur/NATURAL-LANGUAGE-PROCESSING-AND-COMPUTATIONAL-LAB-II)** &nbsp;·&nbsp; �📝 **[Text Summarizer](https://github.com/Amey-Thakur/TEXT-SUMMARIZER)**
-
-  ---
-
-  ### Presented as part of the 8th Semester Mini-Project @ Terna Engineering College
-
-  ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
-
-  **Computer Engineering (B.E.) - University of Mumbai**
-
-  *Semester-wise curriculum, laboratories, projects, and academic notes.*
-
-</div>
+  🔬 **[Natural Language Processing Laboratory](https://github.com/Amey-Thakur/NATURAL-LANGUAGE-PROCESSING-AND-COMPUTATIONAL-LAB-II)** &nbsp;·&nbsp; 📝 **[Text Summarizer](https://github.com/Amey-Thakur/TEXT-SUMMARIZER)**
 
   ---
 
