@@ -69,6 +69,7 @@ Developed as a mini-project for the **8th Semester** curriculum, this system add
 >
 > - [Preprint @viXra](https://vixra.org/abs/2202.0017)
 > - [Published Paper @IJRASET](https://doi.org/10.22214/ijraset.2022.40066)
+> - [Publication Certificate](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Text%20Summarizer%20Using%20Julia/IJRASET40066%20-%20Text%20Summarizer%20Using%20Julia.pdf)
 
 ### Resources
 
@@ -79,7 +80,8 @@ Developed as a mini-project for the **8th Semester** curriculum, this system add
 | 3 | **Presentation** | Project presentation slides (PPTX) | 2022 | [View](Mini-Project/TEXT%20SUMMARIZER.pptx) |
 | 4 | **Research Article** | IJRASET Published Paper (Julia Implementation) | 2022 | [View](https://doi.org/10.22214/ijraset.2022.40066) |
 | 5 | **Scholarly Preprint** | Formal research manuscript (viXra version) | 2022 | [View](https://vixra.org/abs/2202.0017) |
-| 6 | **Project Demo** | Real-time application walkthrough | — | [View](https://youtu.be/2drrqsSB1Bc) |
+| 6 | **Publication Certificate** | Certificate of Publication (IJRASET) | 2022 | [View](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Text%20Summarizer%20Using%20Julia/IJRASET40066%20-%20Text%20Summarizer%20Using%20Julia.pdf) |
+| 7 | **Project Demo** | Real-time application walkthrough | — | [View](https://youtu.be/2drrqsSB1Bc) |
 
 ---
 
