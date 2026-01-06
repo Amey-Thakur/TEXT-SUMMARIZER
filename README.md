@@ -6,11 +6,12 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
   ![Status](https://img.shields.io/badge/Status-Completed-success)
   [![Technology](https://img.shields.io/badge/Technology-Python%20%7C%20Flask%20%7C%20SpaCy%20%7C%20NLTK-blueviolet)](https://github.com/Amey-Thakur/TEXT-SUMMARIZER)
+  [![Research](https://img.shields.io/badge/Research-IJRASET-orange)](https://doi.org/10.22214/ijraset.2022.40066)
   [![Developed by Amey Thakur & Mega Satish](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%20%26%20Mega%20Satish-blue)](https://github.com/Amey-Thakur/TEXT-SUMMARIZER)
 
   A robust web application leveraging multiple NLP algorithms (SpaCy, NLTK, Gensim, Sumy) to summarize textual content and URL sources, featuring a comparative analysis interface for evaluating summarization quality.
 
-  **[Source Code](Source%20Code/)** &nbsp;&middot;&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;&middot;&nbsp; **[Video Demo](https://youtu.be/2drrqsSB1Bc)**
+  **[Source Code](Source%20Code/)** &nbsp;&middot;&nbsp; **[Research Paper](https://doi.org/10.22214/ijraset.2022.40066)** &nbsp;&middot;&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;&middot;&nbsp; **[Video Demo](https://youtu.be/2drrqsSB1Bc)**
 
   [![Text Summarizer Demo](https://img.youtube.com/vi/2drrqsSB1Bc/0.jpg)](https://youtu.be/2drrqsSB1Bc)
 
@@ -20,7 +21,7 @@
 
 <div align="center">
 
-  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results-gallery) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results-gallery) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
 </div>
 
@@ -61,19 +62,47 @@ This project implements a versatile **Text Summarizer** capable of condensing la
 
 Developed as a mini-project for the **8th Semester** curriculum, this system addresses the need for efficient information retrieval by automating the abstraction of key insights from documents. It features a Flask-based web interface that allows users to input raw text or URLs and visualize the comparative performance of different NLP models.
 
+> [!IMPORTANT]
+> **Research Impact**
+>
+> This project was published as a research paper in the **International Journal for Research in Applied Science and Engineering Technology (IJRASET)** (Volume 10, Issue 1) under the title *"Text Summarizer Using Julia"*, exploring comparative implementations.
+>
+> - [Published Paper @IJRASET](https://doi.org/10.22214/ijraset.2022.40066)
+> - [Publication Certificate](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Text%20Summarizer%20Using%20Julia/IJRASET40066%20-%20Text%20Summarizer%20Using%20Julia.pdf)
+
 ### Resources
 
-| # | Resource | Description | Link |
-|---|---|---|---|
-| 1 | **Source Code** | Full Python/Flask implementation | [View](Source%20Code/) |
-| 2 | **Technical Report** | Comprehensive project report (PDF) | [View](Mini-Project/TEXT%20SUMMARIZER.pdf) |
-| 3 | **Presentation** | Project presentation slides (PPTX) | [View](Mini-Project/TEXT%20SUMMARIZER.pptx) |
-| 4 | **Research Article** | IJRASET Published Paper (Julia Implementation) | [View](https://doi.org/10.22214/ijraset.2022.40066) |
-| 5 | **Project Demo** | Real-time application walkthrough | [View](https://youtu.be/2drrqsSB1Bc) |
+| # | Resource | Description | Date | Link |
+|---|---|---|---|---|
+| 1 | **Source Code** | Full Python/Flask implementation | — | [View](Source%20Code/) |
+| 2 | **Technical Report** | Comprehensive project report (PDF) | 2022 | [View](Mini-Project/TEXT%20SUMMARIZER.pdf) |
+| 3 | **Presentation** | Project presentation slides (PPTX) | 2022 | [View](Mini-Project/TEXT%20SUMMARIZER.pptx) |
+| 4 | **Research Article** | IJRASET Published Paper (Julia Implementation) | 2022 | [View](https://doi.org/10.22214/ijraset.2022.40066) |
+| 5 | **Project Demo** | Real-time application walkthrough | — | [View](https://youtu.be/2drrqsSB1Bc) |
 
 ---
 
-<!-- STRUCTURE -->
+<!-- FEATURES -->
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| **Multi-Algorithm Support** | Unified interface for SpaCy, NLTK, Gensim, and Sumy summarization engines. |
+| **Comparative Analysis** | Side-by-side visualization of summaries with reading time reduction metrics. |
+| **URL Scraper** | Integrated BeautifulSoup module to extract and process text directly from web links. |
+| **Material UI** | Responsive frontend built with Materialize CSS for a clean, modern research aesthetic. |
+| **Performance Metrics** | Real-time calculation of original vs. summarized reading times and execution speed. |
+| **Scholarly Codebase** | Fully documented source code with strict academic formatting and inline citations. |
+
+### Tech Stack
+- **Backend**: Python 3.x, Flask
+- **NLP Libraries**: SpaCy, NLTK, Gensim, Sumy
+- **Frontend**: HTML5, Materialize CSS, jQuery
+- **Utilities**: BeautifulSoup4, lxml
+
+---
+
+<!-- PROJECT STRUCTURE -->
 ## Project Structure
 
 ```bash
@@ -206,7 +235,7 @@ Special thanks to the Department of Computer Engineering at Terna Engineering Co
 
   [↑ Back to Top](#readme-top)
 
-  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results-gallery) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results-gallery) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 
