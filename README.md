@@ -11,7 +11,7 @@
 
   A robust web application leveraging multiple NLP algorithms (SpaCy, NLTK, Gensim, Sumy) to summarize textual content and URL sources, featuring a comparative analysis interface for evaluating summarization quality.
 
-  **[Source Code](Source%20Code/)** &nbsp;&middot;&nbsp; **[Research Paper](https://doi.org/10.22214/ijraset.2022.40066)** &nbsp;&middot;&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;&middot;&nbsp; **[Video Demo](https://youtu.be/2drrqsSB1Bc)**
+  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Research Paper](https://doi.org/10.22214/ijraset.2022.40066)** &nbsp;·&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/2drrqsSB1Bc)**
 
   [![Text Summarizer Demo](https://img.youtube.com/vi/2drrqsSB1Bc/0.jpg)](https://youtu.be/2drrqsSB1Bc)
 
@@ -38,14 +38,20 @@
   <tr>
   <td align="center">
   <a href="https://github.com/Amey-Thakur">
-  <img src="https://github.com/Amey-Thakur.png" width="150px;" alt="Amey Thakur"/><br />
+  <img src="https://github.com/Amey-Thakur.png" width="180px;" alt="Amey Thakur"/><br />
   <sub><b>Amey Thakur</b></sub>
+  </a><br /><br />
+  <a href="https://orcid.org/0000-0001-5644-1575">
+  <img src="https://img.shields.io/badge/ORCID-0000--0001--5644--1575-brightgreen" alt="ORCID"/>
   </a>
   </td>
   <td align="center">
   <a href="https://github.com/msatmod">
-  <img src="Mega/Mega.png" width="150px;" alt="Mega Satish"/><br />
+  <img src="Mega/Mega.png" width="180px;" alt="Mega Satish"/><br />
   <sub><b>Mega Satish</b></sub>
+  </a><br /><br />
+  <a href="https://orcid.org/0000-0002-1844-9557">
+  <img src="https://img.shields.io/badge/ORCID-0000--0002--1844--9557-brightgreen" alt="ORCID"/>
   </a>
   </td>
   </tr>
@@ -239,7 +245,7 @@ Copyright © 2022 Amey Thakur & Mega Satish
 
 This project features the **Text Summarizer**, a utility developed as an **8th Semester Mini-Project**. It represents a culmination of studies in computational linguistics and software engineering, delivering a functional tool for automated text analysis.
 
-**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur)
+**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur) · [ORCID](https://orcid.org/0000-0001-5644-1575)
 
 ### Acknowledgments
 
