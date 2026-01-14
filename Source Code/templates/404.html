@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer by Amey & Mega</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../static/css/materialize.css" type="text/css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .glitch-container {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .error-code {
+            font-size: 120px;
+            font-weight: 900;
+            letter-spacing: 10px;
+            color: #ffffff;
+            text-shadow: 2px 2px 0px #ff0000, -2px -2px 0px #00ff00;
+            animation: glitch 1s infinite;
+            position: relative;
+            z-index: 2;
+            line-height: 1;
+            margin: 0;
+        }
+
+        @keyframes glitch {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            20% {
+                transform: translate(-2px, 2px);
+            }
+
+            40% {
+                transform: translate(-2px, -2px);
+            }
+
+            60% {
+                transform: translate(2px, 2px);
+            }
+
+            80% {
+                transform: translate(2px, -2px);
+            }
+
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+
+        .error-message {
+            font-size: 24px;
+            margin-bottom: 40px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            position: relative;
+            z-index: 3;
+            margin-top: 10px;
+        }
+
+        .home-btn {
+            padding: 15px 40px;
+            font-size: 16px;
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            border-radius: 0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .home-btn:hover {
+            background: white;
+            color: black;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 15px;
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="glitch-container">
+        <div class="error-code">404</div>
+    </div>
+    <div class="error-message">Summary Not Found</div>
+
+    <a href="{{ url_for('index') }}" class="home-btn">Return to Text Summarizer</a>
+
+    <div class="footer">
+        <i>"The goal of summarization is to extract meaning, but sometimes the page itself is missing."</i>
+        <br>
+        <small>&copy; 2022 <a href="https://github.com/Amey-Thakur" style="color: white; text-decoration: none;">Amey
+                Thakur</a> & <a href="https://github.com/msatmod" style="color: white; text-decoration: none;">Mega
+                Satish</a></small>
+    </div>
+
+</body>
+
+</html>

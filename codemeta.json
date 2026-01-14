@@ -1,0 +1,57 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Text Summarizer",
+    "description": "A robust web application leveraging multiple NLP algorithms (SpaCy, NLTK, Gensim, Sumy) to summarize textual content and URL sources, featuring a comparative analysis interface for evaluating summarization quality.",
+    "identifier": "TEXT-SUMMARIZER",
+    "license": "https://spdx.org/licenses/MIT.html",
+    "programmingLanguage": [
+        "Python"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Amey",
+            "familyName": "Thakur",
+            "id": "https://orcid.org/0000-0001-5644-1575",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mega",
+            "familyName": "Satish",
+            "id": "https://orcid.org/0000-0002-1844-9557",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        }
+    ],
+    "dateReleased": "2022-08-09",
+    "codeRepository": "https://github.com/Amey-Thakur/TEXT-SUMMARIZER",
+    "developmentStatus": "complete",
+    "runtimePlatform": [
+        "Python 3.6+",
+        "Flask",
+        "SpaCy",
+        "NLTK",
+        "Gensim",
+        "Sumy"
+    ],
+    "applicationCategory": "Natural Language Processing",
+    "keywords": [
+        "Text Summarization",
+        "NLP",
+        "Flask",
+        "SpaCy",
+        "NLTK",
+        "Gensim",
+        "Sumy",
+        "TextRank",
+        "LexRank",
+        "Computer Engineering"
+    ]
+}
