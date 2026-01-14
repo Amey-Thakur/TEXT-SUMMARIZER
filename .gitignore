@@ -1,34 +1,9 @@
-# Python
+# Standard Python Gitignore
 __pycache__/
-*.py[cod]
-*$py.class
 *.pyc
-
-# Virtual Environments
+*.so
+*.dylib
+.venv/
 venv/
-env/
-.env
-bin/
-lib/
-include/
-tcl/
-pyvenv.cfg
-text-sum/
-
-# OS Files
-Thumbs.db
-Desktop.ini
+.cache/
 .DS_Store
-
-# IDEs and Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Temporary Files
-*.tmp
-*.bak
-*.sav
-*.old
-~*

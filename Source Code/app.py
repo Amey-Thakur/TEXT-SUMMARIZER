@@ -16,7 +16,7 @@ from flask import Flask,render_template,url_for,request
 
 # Import proprietary and third-party summarization modules
 from spacy_summarization import text_summarizer  # SpaCy-based summarization logic
-from gensim.summarization import summarize       # Gensim's TextRank implementation
+from summa.summarizer import summarize       # Summa (Gensim TextRank fork) implementation
 from nltk_summarization import nltk_summarizer   # NLTK frequency-based summarization
 import time
 import spacy
@@ -133,20 +133,36 @@ def comparer():
 		final_reading_time = readingTime(rawtext)
 		
 		# 1. SpaCy Summarizer
-		final_summary_spacy = text_summarizer(rawtext)
-		summary_reading_time = readingTime(final_summary_spacy)
-		
-		# 2. Gensim Summarizer (TextRank)
-		final_summary_gensim = summarize(rawtext)
-		summary_reading_time_gensim = readingTime(final_summary_gensim)
-		
+		try:
+			final_summary_spacy = text_summarizer(rawtext)
+			summary_reading_time = readingTime(final_summary_spacy)
+		except Exception:
+			final_summary_spacy = "Error: Text too short or processing failed."
+			summary_reading_time = 0
+
+		# 2. Gensim Summarizer (Summa)
+		try:
+			final_summary_gensim = summarize(rawtext)
+			summary_reading_time_gensim = readingTime(final_summary_gensim)
+		except Exception:
+			final_summary_gensim = "Error: Text too short or processing failed."
+			summary_reading_time_gensim = 0
+
 		# 3. NLTK Summarizer (Frequency Dist)
-		final_summary_nltk = nltk_summarizer(rawtext)
-		summary_reading_time_nltk = readingTime(final_summary_nltk)
-		
+		try:
+			final_summary_nltk = nltk_summarizer(rawtext)
+			summary_reading_time_nltk = readingTime(final_summary_nltk)
+		except Exception:
+			final_summary_nltk = "Error: Text too short or processing failed."
+			summary_reading_time_nltk = 0
+
 		# 4. Sumy Summarizer (LexRank)
-		final_summary_sumy = sumy_summary(rawtext)
-		summary_reading_time_sumy = readingTime(final_summary_sumy) 
+		try:
+			final_summary_sumy = sumy_summary(rawtext)
+			summary_reading_time_sumy = readingTime(final_summary_sumy)
+		except Exception:
+			final_summary_sumy = "Error: Text too short or processing failed."
+			summary_reading_time_sumy = 0 
 
 		end = time.time()
 		final_time = end-start
