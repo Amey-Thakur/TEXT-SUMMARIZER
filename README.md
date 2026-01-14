@@ -21,7 +21,7 @@ license: mit
 
   A robust web application leveraging multiple NLP algorithms (SpaCy, NLTK, Gensim, Sumy) to summarize textual content and URL sources, featuring a comparative analysis interface for evaluating summarization quality.
 
-  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/2drrqsSB1Bc)**
+  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/2drrqsSB1Bc)** &nbsp;·&nbsp; **[Live Demo](https://huggingface.co/spaces/ameythakur/text-summarizer)**
 
   [![Text Summarizer Demo](https://img.youtube.com/vi/2drrqsSB1Bc/0.jpg)](https://youtu.be/2drrqsSB1Bc)
 
