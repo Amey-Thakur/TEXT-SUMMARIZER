@@ -3,7 +3,7 @@ services:
     name: text-summarizer
     env: python
     rootDir: Source Code
-    buildCommand: pip install -r requirements.txt && python download_nltk.py
+    buildCommand: pip install -r requirements.txt && python -m spacy download en_core_web_sm && python download_nltk.py
     startCommand: gunicorn app:app
     envVars:
       - key: PYTHON_VERSION
