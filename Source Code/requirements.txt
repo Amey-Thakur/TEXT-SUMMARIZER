@@ -1,11 +1,15 @@
-Flask>=2.0.0
-beautifulsoup4>=4.10.0
-spacy>=3.2.0
-gensim>=4.0.0
-nltk>=3.6
-sumy>=0.9.0
-gunicorn>=20.1.0
-requests>=2.26.0
-lxml>=4.6.4
-bs4
+Flask==3.0.0
+beautifulsoup4==4.12.3
+spacy==3.7.4
+gensim==4.3.2
+summa==1.2.0
+nltk==3.8.1
+sumy==0.11.0
+gunicorn==21.2.0
+requests==2.31.0
+lxml==5.1.0
+# Pin Scipy/Numpy to avoid Gensim ImportError: cannot import name 'triu' from 'scipy.linalg'
+scipy==1.12.0
+numpy<2.0.0
+# Direct URL for SpaCy model
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
