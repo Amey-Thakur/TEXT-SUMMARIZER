@@ -1,4 +1,4 @@
-# Technical Specification: TEXT-SUMMARIZER
+# Technical Specification: Text Summarizer
 
 ## Architectural Overview
 

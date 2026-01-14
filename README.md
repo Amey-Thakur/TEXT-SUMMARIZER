@@ -6,12 +6,11 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
   ![Status](https://img.shields.io/badge/Status-Completed-success)
   [![Technology](https://img.shields.io/badge/Technology-Python%20%7C%20Flask%20%7C%20SpaCy%20%7C%20NLTK-blueviolet)](https://github.com/Amey-Thakur/TEXT-SUMMARIZER)
-  [![Research](https://img.shields.io/badge/Research-IJRASET-orange)](https://doi.org/10.22214/ijraset.2022.40066)
   [![Developed by Amey Thakur & Mega Satish](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%20%26%20Mega%20Satish-blue)](https://github.com/Amey-Thakur/TEXT-SUMMARIZER)
 
   A robust web application leveraging multiple NLP algorithms (SpaCy, NLTK, Gensim, Sumy) to summarize textual content and URL sources, featuring a comparative analysis interface for evaluating summarization quality.
 
-  **[Source Code](Source%20Code/)** &nbsp;&middot;&nbsp; **[Research Paper](https://doi.org/10.22214/ijraset.2022.40066)** &nbsp;&middot;&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;&middot;&nbsp; **[Video Demo](https://youtu.be/2drrqsSB1Bc)**
+  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/2drrqsSB1Bc)**
 
   [![Text Summarizer Demo](https://img.youtube.com/vi/2drrqsSB1Bc/0.jpg)](https://youtu.be/2drrqsSB1Bc)
 
@@ -34,24 +33,14 @@
 
   **Terna Engineering College | Computer Engineering | Batch of 2022**
 
-  <table>
-  <tr>
-  <td align="center">
-  <a href="https://github.com/Amey-Thakur">
-  <img src="https://github.com/Amey-Thakur.png" width="150px;" alt="Amey Thakur"/><br />
-  <sub><b>Amey Thakur</b></sub>
-  </a>
-  </td>
-  <td align="center">
-  <a href="https://github.com/msatmod">
-  <img src="Mega/Mega.png" width="150px;" alt="Mega Satish"/><br />
-  <sub><b>Mega Satish</b></sub>
-  </a>
-  </td>
-  </tr>
-  </table>
+  | <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) |
+  | :---: | :---: |
 
 </div>
+
+> [!IMPORTANT]
+> ### 🤝🏻 Special Acknowledgement
+> *Special thanks to **[Mega Satish](https://github.com/msatmod)** for her meaningful contributions, guidance, and support that helped shape this work.*
 
 ---
 
@@ -62,10 +51,10 @@ This project implements a versatile **Text Summarizer** capable of condensing la
 
 Developed as a mini-project for the **8th Semester** curriculum, this system addresses the need for efficient information retrieval by automating the abstraction of key insights from documents. It features a Flask-based web interface that allows users to input raw text or URLs and visualize the comparative performance of different NLP models.
 
-> [!IMPORTANT]
-> **Research Impact**
+> [!NOTE]
+> **Research Impact & Certification**
 >
-> This project was published as a research paper in the **International Journal for Research in Applied Science and Engineering Technology (IJRASET)** (Volume 10, Issue 1) and is also available as a preprint on **viXra**.
+> This project was published as a research paper in the **International Journal for Research in Applied Science and Engineering Technology (IJRASET)** (Volume 10, Issue 1) and is also available as a preprint on **viXra**. The project received an official **Publication Certificate** for its research contribution to natural language processing.
 >
 > - [Preprint @viXra](https://vixra.org/abs/2202.0017)
 > - [Published Paper @IJRASET](https://doi.org/10.22214/ijraset.2022.40066)
@@ -73,15 +62,21 @@ Developed as a mini-project for the **8th Semester** curriculum, this system add
 
 ### Resources
 
-| # | Resource | Description | Date | Link |
-|---|---|---|---|---|
-| 1 | **Source Code** | Full Python/Flask implementation | — | [View](Source%20Code/) |
-| 2 | **Technical Report** | Comprehensive project report (PDF) | 2022 | [View](Mini-Project/TEXT%20SUMMARIZER.pdf) |
-| 3 | **Presentation** | Project presentation slides (PPTX) | 2022 | [View](Mini-Project/TEXT%20SUMMARIZER.pptx) |
-| 4 | **Research Article** | IJRASET Published Paper (Julia Implementation) | 2022 | [View](https://doi.org/10.22214/ijraset.2022.40066) |
-| 5 | **Scholarly Preprint** | Formal research manuscript (viXra version) | 2022 | [View](https://vixra.org/abs/2202.0017) |
-| 6 | **Publication Certificate** | Certificate of Publication (IJRASET) | 2022 | [View](https://github.com/Amey-Thakur/ACHIEVEMENTS/blob/main/Research%20Papers/Text%20Summarizer%20Using%20Julia/IJRASET40066%20-%20Text%20Summarizer%20Using%20Julia.pdf) |
-| 7 | **Project Demo** | Real-time application walkthrough | — | [View](https://youtu.be/2drrqsSB1Bc) |
+| # | Resource | Description |
+|---|---|---|
+| 1 | [**Technical Report**](Mini-Project/TEXT%20SUMMARIZER.pdf) | Detailed project documentation |
+| 2 | [**Project Presentation**](Mini-Project/TEXT%20SUMMARIZER.pptx) | Visual demonstration and slides |
+| 3 | [**Technical Specification**](docs/SPECIFICATION.md) | Technical Architecture & Specification |
+| 4 | [**Source Code**](Source%20Code/) | Complete source code and documentation |
+| 5 | [**Research Article**](https://doi.org/10.22214/ijraset.2022.40066) | IJRASET Published Paper |
+| 6 | [**Scholarly Preprint**](https://vixra.org/abs/2202.0017) | Formal research manuscript (viXra) |
+| 7 | [**Project Demo**](https://youtu.be/2drrqsSB1Bc) | Real-time demonstration of features |
+| 8 | [**NLP Laboratory**](https://github.com/Amey-Thakur/NATURAL-LANGUAGE-PROCESSING-AND-COMPUTATIONAL-LAB-II) | Academic repository for NLP |
+
+> [!TIP]
+> **Algorithm Selection for Optimal Results**
+>
+> For long-form documents, **Gensim's TextRank** provides superior coherence by leveraging graph-based sentence ranking. For shorter texts or news articles, **SpaCy's frequency-based** approach offers faster execution with comparable quality.
 
 ---
 
@@ -92,7 +87,7 @@ Developed as a mini-project for the **8th Semester** curriculum, this system add
 |---------|-------------|
 | **Multi-Algorithm Support** | Unified interface for SpaCy, NLTK, Gensim, and Sumy summarization engines. |
 | **Comparative Analysis** | Side-by-side visualization of summaries with reading time reduction metrics. |
-| **URL Scraper** | Integrated BeautifulSoup module to extract and process text directly from web links. |
+| **Web Scraping** | Integrated BeautifulSoup module to extract and process text directly from web links. |
 | **Material UI** | Responsive frontend built with Materialize CSS for a clean, modern research aesthetic. |
 | **Performance Metrics** | Real-time calculation of original vs. summarized reading times and execution speed. |
 | **Scholarly Codebase** | Fully documented source code with strict academic formatting and inline citations. |
@@ -108,19 +103,15 @@ Developed as a mini-project for the **8th Semester** curriculum, this system add
 <!-- PROJECT STRUCTURE -->
 ## Project Structure
 
-```bash
+```python
 TEXT-SUMMARIZER/
 │
 ├── docs/                                          # Formal Documentation
-│   └── SPECIFICATION.md                           # Technical Architecture & Spec
+│   └── SPECIFICATION.md                           # Technical Architecture & Specification
 │
 ├── Mega/                                          # Archival Attribution Assets
 │   ├── Filly.jpg                                  # Project-related Content Asset
-│   ├── Mega.png                                   # Author Profile Image (Mega Satish)
-│   ├── Mega_Chair.png                             # Author Profile Context
-│   ├── Mega_Dining.jpg                            # Author Personal Context
-│   ├── Mega_Professional.jpg                      # Author Professional Portrait
-│   └── Mega_and_Hetvi.png                         # Collaborative Identity Asset
+│   └── Mega.png                                   # Author Profile Image (Mega Satish)
 │
 ├── Mini-Project/                                  # Research & Academic Assets
 │   ├── TEXT SUMMARIZER.pdf                        # Technical Project Report (PDF)
@@ -140,6 +131,7 @@ TEXT-SUMMARIZER/
 ├── .gitattributes                                 # Global Git LFS & Config
 ├── .gitignore                                     # Asset Exclusion Manifest
 ├── CITATION.cff                                   # Scholarly Citation Metadata
+├── codemeta.json                                  # Software Metadata Manifest
 ├── LICENSE                                        # MIT License Terms
 ├── README.md                                      # Comprehensive Archival Entrance
 └── SECURITY.md                                    # Vulnerability Exposure Policy
@@ -153,7 +145,11 @@ TEXT-SUMMARIZER/
 ### Application Interface
 The interface provides a clean, side-by-side comparison of summarization results along with reading time metrics.
 
+<div align="center">
+
 ![Application Interface](https://user-images.githubusercontent.com/54937357/146636650-5e8909fe-0484-41b8-b1d9-03612cb34e70.png)
+
+</div>
 
 ---
 
@@ -165,6 +161,11 @@ Ensure your environment meets the following requirements:
 - **Python**: Version **3.6** or higher.
 - **Packages**: Flask, SpaCy, NLTK, Gensim, Sumy.
 - **NLP Models**: `en_core_web_sm` (SpaCy), `stopwords/punkt` (NLTK).
+
+> [!WARNING]
+> **Technical Dependencies & Environment**
+>
+> This system requires **Python 3.6+** and multiple NLP libraries (SpaCy, NLTK, Gensim, Sumy). For stable execution, it is recommended to run this in an isolated virtual environment and ensure all SpaCy language models are downloaded prior to execution.
 
 ### 2. Setup & Installation
 1.  **Clone the Repository**:
@@ -212,7 +213,7 @@ This repository and all linked academic content are made available under the **M
 > [!NOTE]
 > **Summary**: You are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate attribution to the original author.
 
-Copyright © 2022 Amey Thakur & Mega Satish
+Copyright © 2022 Amey Thakur, Mega Satish
 
 ---
 
@@ -226,17 +227,18 @@ Copyright © 2022 Amey Thakur & Mega Satish
 
 This project features the **Text Summarizer**, a utility developed as an **8th Semester Mini-Project**. It represents a culmination of studies in computational linguistics and software engineering, delivering a functional tool for automated text analysis.
 
-**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur)
+**Connect**: [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
 
 ### Acknowledgments
 
-Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** for her collaborative excellence and technical contributions to this project. Her dedication to refining the NLP logic and user interface was instrumental in the project's success.
+Grateful acknowledgment to [**Mega Satish**](https://github.com/msatmod) for her exceptional collaboration and scholarly partnership during the development of this project. Her intellectual contributions, technical insights, and dedicated commitment to software quality were fundamental in achieving the system's analytical and functional objectives. Learning alongside her was a transformative experience; her thoughtful approach to problem-solving and encouragement turned challenges into meaningful learning moments. This work reflects the growth and insights gained from our side-by-side academic journey. Thank you, Mega, for everything you shared and taught along the way.
 
-Special thanks to the Department of Computer Engineering at Terna Engineering College for providing the academic platform for this research.
+Grateful acknowledgment to the faculty members of the **Department of Computer Engineering** at Terna Engineering College for their guidance and instruction in Natural Language Processing. Their expertise in computational linguistics and algorithmic design helped shape the technical foundation of this project.
+
+Special thanks to the mentors and peers whose encouragement, discussions, and support contributed meaningfully to this learning experience.
 
 ---
 
-<!-- FOOTER -->
 <div align="center">
 
   [↑ Back to Top](#readme-top)
@@ -249,8 +251,10 @@ Special thanks to the Department of Computer Engineering at Terna Engineering Co
 
   ---
 
-  ### Presented as part of the 8th Semester Mini-Project @ Terna Engineering College
-
+  #### Presented as part of the 8th Semester Mini-Project @ Terna Engineering College
+  
+  ---
+  
   ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
 
   **Computer Engineering (B.E.) - University of Mumbai**

@@ -5,14 +5,14 @@
 * text=auto eol=lf
 
 # Explicitly mark source files as text
-*.py text
-*.html text
-*.css text
-*.js text
-*.json text
-*.md text
-*.txt text
-Procfile text
+*.py text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+Procfile text eol=lf
 
 # Mark binary files
 *.pdf binary

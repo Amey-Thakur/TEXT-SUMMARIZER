@@ -30,6 +30,26 @@
 </head>
 
 <body>
+  <!-- Security Protection -->
+  <div id="securityOverlay"
+    style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.95); z-index: 9999; justify-content: center; align-items: center; flex-direction: column;">
+    <div style="color: #ff3333; font-size: 60px; margin-bottom: 20px;">🛡️</div>
+    <h1
+      style="color: #ffffff; font-family: 'Segoe UI'; text-transform: uppercase; letter-spacing: 3px; font-size: 24px; margin-bottom: 15px;">
+      Unauthorized Action Detected</h1>
+    <p
+      style="color: #888; font-family: 'Segoe UI'; margin-bottom: 30px; text-align: center; max-width: 500px; line-height: 1.6;">
+      This project is protected by academic integrity protocols.<br>
+      Direct access to source code or developer tools is restricted.
+    </p>
+    <div style="color: #444; font-size: 12px; margin-bottom: 30px; letter-spacing: 2px;">
+      AMEY THAKUR · MEGA SATISH
+    </div>
+    <button id="dismissSecurity"
+      style="background: transparent; border: 1px solid #ff3333; color: #ff3333; padding: 10px 30px; cursor: pointer; transition: all 0.3s;">
+      DISMISS
+    </button>
+  </div>
   <!-- Global Page Stylings for Theme Consistency -->
   <style>
     body {
