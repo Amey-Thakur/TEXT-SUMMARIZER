@@ -1,18 +1,7 @@
----
-title: Text Summarizer
-emoji: 📝
-colorFrom: blue
-colorTo: indigo
-sdk: docker
-pinned: false
-license: mit
----
-
 <div align="center">
 
   <a name="readme-top"></a>
   # Text Summarizer
-
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
   ![Status](https://img.shields.io/badge/Status-Completed-success)
