@@ -247,7 +247,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
   <br>
 
-  🔬 **[Natural Language Processing Laboratory](https://github.com/Amey-Thakur/NATURAL-LANGUAGE-PROCESSING-AND-COMPUTATIONAL-LAB-II)** &nbsp;·&nbsp; 📝 **[Text Summarizer](https://github.com/Amey-Thakur/TEXT-SUMMARIZER)**
+  🔬 **[Natural Language Processing Laboratory](https://github.com/Amey-Thakur/NATURAL-LANGUAGE-PROCESSING-AND-COMPUTATIONAL-LAB-II)** &nbsp;·&nbsp; 📝 **[Text Summarizer](https://huggingface.co/spaces/ameythakur/text-summarizer)**
 
   ---
 
