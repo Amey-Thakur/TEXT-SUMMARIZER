@@ -1,0 +1,36 @@
+# Text Summarizer
+
+> Machine Learning Project to Compare and Evaluate Text Summarization
+> Algorithms Using SpaCy, NLTK, Gensim, and Sumy.
+
+Author: Amey Thakur, ORCID 0000-0001-5644-1575
+Co-author: Mega Satish, ORCID 0000-0002-1844-9557
+Institution: Terna Engineering College, University of Mumbai
+Programme: B.E. Computer Engineering, Fourth Year, Semester VIII
+Licence: CC BY 4.0, attribution required
+Repository created: 18 December 2021
+Work dated: 9 August 2022
+
+## What is in this repository
+
+- Mega, 6 files
+- Mini-Project, 14 files
+- Source Code, 18 files
+- docs, 1 file
+- Dockerfile
+- pa_setup.sh
+
+## Subject terms
+
+comparative-analysis, computer-engineering, computer-science, engineering,
+extractive-summarization, flask, gensim, julia,
+natural-language-processing, nltk, python, research-paper, spacy, sumy,
+university-of-mumbai
+
+## Where this sits
+
+- This repository: https://github.com/Amey-Thakur/TEXT-SUMMARIZER
+- Degree index, every subject and project: https://github.com/Amey-Thakur/COMPUTER-ENGINEERING
+- Project page: https://huggingface.co/spaces/ameythakur/text-summarizer
+- Author: https://github.com/Amey-Thakur
+- Research notes and reflections: https://amey-thakur.github.io/
